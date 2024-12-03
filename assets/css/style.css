@@ -9487,3 +9487,31 @@ header .header-six.header-seven .main-menu.menu-eight.menu-fixed.animated.fadeIn
 .speaker-statement p {
     margin-bottom: 0px;
 }
+
+
+
+
+
+
+
+/*-------------------------------------------------
+    [ ## scrollbar ]
+*/
+*::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset -5px -5px 8px -1px rgba(255, 255, 255, 0.7), 5px 5px 8px -1px rgba(0, 0, 0, 0.065);
+    box-shadow: inset -5px -5px 8px -1px rgba(255, 255, 255, 0.7), 5px 5px 8px -1px rgba(0, 0, 0, 0.065);
+    background-color: #f8f9ff;
+  }
+  
+  *::-webkit-scrollbar {
+    width: 6px;
+    background-color: #f8f9ff;
+  }
+  
+  *::-webkit-scrollbar-button {
+    background-color: #e5c949;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: #e5c949;
+  }
