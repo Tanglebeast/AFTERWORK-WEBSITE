@@ -6057,34 +6057,34 @@ nav.main-menu.menu-six.menu-fixed.dark-home-defult.menu-six-bg {
 ----------------------------------------------*/
 .error h2 {
     font-size: 370px;
-    color: #65ac4c;
+    color: #fcc304;
 }
 
 .error h2 span {
-    color: #ff9822;
+    color: #fcc304;
 }
 
 .error h3 {
     font-size: 48px;
     line-height: 1.5;
-    color: #65ac4c;
+    color: #fcc304;
     text-transform: capitalize;
 }
 
 .error p {
     font-size: 20px;
-    color: #010101;
+    color: white;
     margin-bottom: 60px;
 }
 
 .error a {
-    background-color: #65ac4c;
-    color: #fff;
+    background-color: #fcc304;
+    color: black;
     padding: 13px 40px;
 }
 
 .error a:hover {
-    background-color: #ff9822;
+    background-color: #fcc304;
 }
 
 /*  18  - Footer
