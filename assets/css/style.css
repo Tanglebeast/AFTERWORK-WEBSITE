@@ -37,7 +37,8 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
     margin: 0;
-    background: url('../../images/bg-body.png') no-repeat center center fixed !important;
+    /* background: url('../../images/bg-body.png') no-repeat center center fixed !important; */
+    background-color: rgb(255, 255, 255) !important;
     background-size: cover !important;
 }
 
@@ -77,7 +78,7 @@ template {
 
 a {
     background-color: transparent;
-    color: white;
+    color: black;
     -webkit-transition: .25s;
     -moz-transition: .25s;
     -moz-transition: .25s;
@@ -254,7 +255,7 @@ h6 {
     clear: both;
     line-height: 1em;
     font-weight: 700;
-    color: white;
+    color: black;
     text-transform: uppercase;
     margin: 0;
     padding: 0;
@@ -284,7 +285,7 @@ h5 {
 
 p {
     font-size: 18px;
-    color: rgba(255, 255, 255, 0.686);
+    color: rgba(43, 43, 43, 0.686);
     line-height: 24px;
     margin: 0 0 1.75em;
 }
@@ -1759,7 +1760,7 @@ nav.main-menu.menu-six.menu-fixed.dark-home-defult.menu-six-bg {
 .banner-nine {}
 
 .banner-nine {
-    background-image: url(../../images/backgrounds/bg-banner.jpg);
+    background-image: url(../../images/backgrounds/startheader.jpg);
     /* margin-top: 100px; */
 }
 
@@ -6003,7 +6004,7 @@ nav.main-menu.menu-six.menu-fixed.dark-home-defult.menu-six-bg {
     font-size: 14px;
     text-transform: uppercase;
     color: black !important;
-    background-color: #fcc304;
+    background-color: white;
     border-radius: 3px;
     padding: 21px 35px;
     float: right;
@@ -6093,7 +6094,7 @@ footer {
     /* background-image: url(../../images/backgrounds/bg-footer.jpg);
     background-size: cover;
     background-position: 50% 50%; */
-    background: rgba(0, 0, 0, 0.1);
+    background: #fcc304;
     backdrop-filter: blur(5px);
     overflow: hidden;
     text-align: center;
@@ -9514,4 +9515,9 @@ header .header-six.header-seven .main-menu.menu-eight.menu-fixed.animated.fadeIn
   
   *::-webkit-scrollbar-thumb {
     background-color: #e5c949;
+  }
+
+
+  .call-to-action-section {
+    background-color: black;
   }
